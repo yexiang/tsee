@@ -1,0 +1,17 @@
+{
+    "name": "john/tsee",
+    "authors": [
+        {
+            "name": "John",
+            "email": "ye.123789456@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "john\\tsee\\": "src/"
+        }
+    }
+}

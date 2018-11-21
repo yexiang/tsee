@@ -3,8 +3,6 @@ namespace yexiang\tsee;
 
 class Tsee {
 
-  public static $OK = 0;
-
   public function __construct() {
 
   }
@@ -16,5 +14,6 @@ class Tsee {
         $text = str_replace($u->url, '<a href="'.$u->expanded_url.'" target="_blank">'.$u->display_url.'</a>', $text);
       }
     }
+    return $text;
   }
 }

@@ -1,8 +1,8 @@
 {
-    "name": "john/tsee",
+    "name": "yexiang/tsee",
     "authors": [
         {
-            "name": "John",
+            "name": "yexiang",
             "email": "ye.123789456@gmail.com"
         }
     ],
@@ -11,7 +11,7 @@
     },
     "autoload": {
         "psr-4": {
-            "john\\tsee\\": "src/"
+            "yexiang\\tsee\\": "src/"
         }
     }
 }

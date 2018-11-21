@@ -1,5 +1,5 @@
 <?php
-namespace john\tsee;
+namespace yexiang\tsee;
 
 class Tsee {
   public static $OK = 0;

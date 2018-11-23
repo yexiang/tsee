@@ -7,7 +7,7 @@ class Tsee {
   }
 
   public function ex($cs) {
-    $text='';
+    $text=$cs->full_text;
     if(isset($cs->entities->urls)){
       foreach ($cs->entities->urls as $u) {
         $text = str_replace($u->url, '<a href="'.$u->expanded_url.'" target="_blank">'.$u->display_url.'</a>', $text);

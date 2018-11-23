@@ -2,13 +2,11 @@
 namespace yexiang\tsee;
 
 class Tsee {
-
   public function __construct() {
   }
-
   public function ex($cs) {
     if(isset($cs->retweeted_status)){
-			$cs=$cs->retweeted_status;
+      $cs=$cs->retweeted_status;
     }
     $text=$cs->full_text;
     if(isset($cs->entities->urls)){
